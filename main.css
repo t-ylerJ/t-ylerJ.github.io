@@ -66,8 +66,10 @@ img {
 nav {
   font-family: var(--mono);
   width: 100%;
+  height: 3.5rem;
+  
   font-size: 80%;
-  padding: 1rem 3rem;
+  padding: 1rem 0rem;
   background-color: var(--tealblue);
 }
 
@@ -79,7 +81,7 @@ nav h1 {
 }
 nav ul {
   list-style-type: none;
-  padding: 0;
+  padding: 1rem 0rem;
   margin: 0;
   display: flex;
   flex-flow: row wrap;
@@ -129,7 +131,30 @@ nav a:hover {
     /* max-width: 1200px; */
   }
 }
-
+.container {
+  max-width: 1200px;
+  font-size: 60%;
+  margin: 0;
+  padding: 0 3rem;
+}
+.project_nav {
+  max-width: 1200px;
+  font-size: 125%;
+}
+.project_nav ul {
+  list-style-type: none;
+  padding:0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.power_bi {
+  display: block;
+  margin: 2rem auto; /
+}
 /* background color divs */
 .section-plum {
   background-color: var(--plum);
@@ -284,7 +309,12 @@ nav a:hover {
   gap: 1rem;
   font-size: 1.25rem;
 }
-
+.unstyled-link {
+  color: inherit;        /* Match parent text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: inherit;  /* Optional: avoid bolding */
+  font-family: inherit;  /* Optional: keep font consistent */
+}
 
 
 /* About styles */
