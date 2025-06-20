@@ -132,13 +132,13 @@ nav a:hover {
   }
 }
 .container {
-  max-width: 1200px;
+  min-width: 1200px;
   font-size: 60%;
   margin: 0;
   padding: 0 3rem;
 }
 .project_nav {
-  max-width: 1200px;
+  min-width: 1200px;
   font-size: 125%;
 }
 .project_nav ul {
@@ -315,7 +315,9 @@ nav a:hover {
   font-weight: inherit;  /* Optional: avoid bolding */
   font-family: inherit;  /* Optional: keep font consistent */
 }
-
+.analysis-text {
+  margin-top: 2rem;
+}
 
 /* About styles */
 #about {
